@@ -147,10 +147,11 @@ textarea {
    }
 
    img {
-
+     width: 100%
    }
 
    figure {
+     margin: 0;
 
    }
 
@@ -181,6 +182,14 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -262,6 +271,10 @@ main {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url(../img/unplugged-retreat-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
 }
 
 .hero-area h1 {
@@ -269,10 +282,6 @@ main {
   font-weight: 500;
   font-size: 2.25em;
   line-height: 1.2;
-}
-
-main .content-wrapper {
-
 }
 
 /* Aside */
@@ -321,6 +330,9 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/unplugged-retreat-features.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .features h2 {
@@ -544,6 +556,10 @@ article .testimonial {
     justify-content: space-between;
   }
 
+  header figure {
+    width: 30%;
+  }
+
   header nav {
     width: 20%;
   }
@@ -556,6 +572,15 @@ article .testimonial {
     display: none;
   }
   /* Hero Area */
+  .hero-area {
+    min-height: 600px;
+  }
+
+  .hero-area h1 {
+    font-size: 3em;
+    line-height: 1;
+    margin: 0;
+}
 
   /* Aside */
   aside .content-wrapper {
@@ -590,8 +615,14 @@ article .testimonial {
     justify-content: space-between;
   }
 
+  .reviews article figure,
   .reviews article div {
     width: 49%;
+  }
+
+  .reviews h3 {
+    width: 75%;
+    margin: 0;
   }
 
   /* Footer */
@@ -652,7 +683,7 @@ article .testimonial {
   .contact-content h4 {
     font-size: 1.5em;
   }
-  
+
   /* ==========================================================================
    FAQ Page
    ========================================================================== */
