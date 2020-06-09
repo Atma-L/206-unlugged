@@ -252,6 +252,11 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 1.25em;
 }
 
 footer .copyright {
@@ -659,6 +664,11 @@ article .testimonial {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+  }
+
+  footer .social-icons {
+    justify-content: space-between;
+    width: 12em;
   }
 
   footer .contact {
