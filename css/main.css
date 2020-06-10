@@ -455,7 +455,7 @@ article .testimonial {
 }
 
 .faq-question {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .faq-question h4 {
@@ -556,7 +556,7 @@ article .testimonial {
 
   .content-wrapper {
     max-width: 640px;
-    margin: 100px 0;
+    margin: 70px 0;
   }
 
   h2 {
@@ -657,7 +657,7 @@ article .testimonial {
   /* Footer */
   footer .content-wrapper {
     width: 65%;
-    margin: 100px 0;
+    margin: 75px 0;
   }
 
   footer .footer-content {
@@ -736,6 +736,7 @@ article .testimonial {
 
   .faq-question {
     flex-basis: 45%;
+    margin-bottom
   }
 
   .faq h2 {
