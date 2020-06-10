@@ -562,6 +562,7 @@ article .testimonial {
   h2 {
     font-size: 2.25em;
     line-height: 1.333;
+    margin: 0;
   }
 
   h3 {
@@ -751,7 +752,7 @@ h3, h4 {
 }
 
 h2 {
-  font-size: 2.25em;
+  font-size: 3em;
 }
 
 p {
@@ -800,11 +801,10 @@ p {
     .mission h2,
     .contact-section .content-wrapper h2 {
         width: 945px;
+        margin-bottom: 60px;
     }
 
-    .contact-section .content-wrapper h2 {
-        margin-bottom: 98px;
-    }
+
 
 
 /* ==========================================================================
